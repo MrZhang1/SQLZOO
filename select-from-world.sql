@@ -33,7 +33,7 @@ WHERE name IN ('France', 'Germany', 'Italy');
 # 6. Show the countries which have a name that includes the word 'United'
 SELECT name
 FROM world
-WHERE name LIKE '%United%'
+WHERE name LIKE '%United%';
 
 
 # 7. Show the countries that are big by area or big by population. Show name, population and area.
